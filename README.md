@@ -7,27 +7,6 @@
 
   https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013
 
-[//]: # (Image References)
-
-[image1]: ./test_images_output/solidWhiteCurve.jpg "Solid White Curve"
-[image2]: ./test_images_output/solidWhiteRight.jpg "Solid White Right"
-[image3]: ./test_images_output/solidYellowCurve.jpg "Solid Yellow Curve"
-[image4]: ./test_images_output/solidYellowCurve2.jpg "Solid Yellow Curve - II"
-[image5]: ./test_images_output/solidYellowLeft.jpg "Solid Yellow Left"
-[image6]: ./test_images_output/whiteCarLaneSwitch.jpg "White Car Lane Switch"
-
-* The source code is in IPython notebook "./P1.ipynb". 
-
-* The two videos to be processed :
-
-  Here's a [link to 1st video to be processed](./test_videos_output/solidWhiteRight.mp4) and a [link to 2nd video to be processed](./test_videos_output/solidYellowLeft.mp4)
-
-
-* The lane line detected result videos :
-
-  Here's a [link to 1st processed video](./white_final.mp4) and a [link to 2nd processed video](./yellow_final.mp4)
-
-
 ### Lane line detection pipeline 
 
 The pipeline is consisted of 6 steps. 
@@ -62,10 +41,64 @@ In order to draw a single line on the left or right lanes, I modified the draw_l
 
 5. Finally, I connected the 2 points to form the line. Both left and right lane line are drawn.
 
+### Source Code
+
+* The source code is in IPython notebook "./P1.ipynb". 
+
 ### Result
 
-| ![alt text][image1] |  ![alt text][image2] |  ![alt text][image3] | 
-| ![alt text][image4] |  ![alt text][image5] |  ![alt text][image6] |   
+#### Test Image Results
+<table>
+  <tr>
+    <td>
+      <center>
+         <img src="test_images_output/solidWhiteCurve.jpg" width="500">
+          <br/>
+          <h5>Solid White Curve</h5>
+      <center>
+    </td>
+    <td>
+      <center>
+        <img src="test_images_output/solidWhiteRight.jpg" width="500">
+        <h5>Solid White Right</h5>
+      <center>
+    </td>
+    <td>
+      <center>
+        <img src="test_images_output/solidYellowCurve.jpg" width="500">
+        <h5>Solid Yellow Curve</h5>
+      <center>
+    </td> 
+  </tr>
+  <tr></tr>
+  <tr>
+     <td>
+      <center>
+         <img src="test_images_output/solidYellowCurve2.jpg" width="500">
+          <br/>
+          <h5>Solid Yellow Curve 2</h5>
+      <center>
+    </td>
+    <td>
+      <center>
+        <img src="test_images_output/solidYellowLeft.jpg" width="500">
+        <h5>Solid Yelloe Left</h5>
+      <center>
+    </td>
+    <td>
+      <center>
+        <img src="test_images_output/whiteCarLaneSwitch.jpg" width="500">
+        <h5>White Car Lane Switch</h5>
+      <center>
+    </td>
+  </tr>
+</table>
+
+#### Test Video Results:
+
+* The lane line detected result videos :
+
+  Here's a [link to 1st processed video](./test_videos_output/solidWhiteRight.mp4) and a [link to 2nd processed video](./test_videos_output/solidYellowLeft.mp4)
 
 ### Shortcomings of current pipeline
 
